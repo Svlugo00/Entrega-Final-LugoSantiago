@@ -1,0 +1,87 @@
+.letra {
+    font-family: "Danfo", serif;
+    font-weight: 400;
+    font-size: 100px;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .letra-produ {
+    font-family: "Jaro", sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    text-align: center;
+    font-style: normal;
+    color: #000000;
+  }
+  
+  .card p {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 15px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  .card {
+    background-color: #a3a1a1;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+  }
+  .card:hover{
+    box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.4) ;
+    transform: translate(-3%);
+  }
+  
+  .card button {
+    display: inline-block;
+    padding: 3px;
+    margin-top: 10px;
+    background-color: #00ff00;
+    color: #ffffff;
+    border-radius: 4px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
+    transition: all 400ms ease;
+  }
+  .card button:hover{
+    background: #ffffff;
+    color:#000000
+  }
+  .cont-img {
+    width: 300px;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    margin-right: 15px;
+  }
+  .wrapper{
+    margin: 70px auto;
+    width: 70%;
+  }
+  .text-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    color: #ffffff;
+    font-size: 20px;
+    font-family:"Tauri", sans-serif;
+  }
+  
+  .cont-img img {
+    width: 100%;
+  }
+  
+  .Contenedor-flex {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+  }
